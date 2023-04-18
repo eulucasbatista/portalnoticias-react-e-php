@@ -3,3 +3,28 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.containerNotícia {
+  display: flex;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.containerNotícia img{
+  width: 30%;
+}
+
+.containerNotícia p{
+  padding:20px;
+  width: 70%;
+}
+
+.Header {
+  padding: 20px 30px;
+}
+
+.Footer {
+  text-align: center;
+  margin: 0;
+  height: 25px;
+}

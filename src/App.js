@@ -19,11 +19,12 @@ function App() {
       {
         posts.map(function (val) {
           return (
+
             <div className="containerNotícia">
-              
+
               <img src={val.imagem} />
               <p>{val.conteudo}</p>
-              </div>
+            </div>
           )
         })
       }
